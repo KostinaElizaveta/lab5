@@ -2,7 +2,7 @@ language: cpp
 sudo: required
 dist: trusty
 
-os:linux
+os: linux
 
 script:
 - cmake -H. -B_builds
