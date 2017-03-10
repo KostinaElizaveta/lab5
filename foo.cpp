@@ -1,6 +1,5 @@
 #include "catch.hpp"
-unsigned int sum (unsigned int number1,unsigned int number2 )
-{
+int sum ( int number1, int number2 ){
 return number1+number2;
 }
 TEST_CASE ("Sum", "[sum]")
